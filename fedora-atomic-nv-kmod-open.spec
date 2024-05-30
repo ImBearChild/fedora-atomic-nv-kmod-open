@@ -1,4 +1,4 @@
-Name:           fedora-atomic-nv-kmod-open-macros
+Name:           fedora-atomic-nv-kmod-open
 Version:        0.0.1
 Release:        1%{?dist}
 Summary:        RPM macro for install Nvidia kernel-open driver from rpm-fusion
