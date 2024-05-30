@@ -23,6 +23,7 @@ echo "%_with_kmod_nvidia_open 1" > macros.nvidia-kmod
 
 
 %install
+mkdir -p %{buildroot}%{_rpmconfigdir}/macros.d
 install -p -m 644 -t %{buildroot}%{_rpmconfigdir}/macros.d macros.nvidia-kmod
 
 %pre
